@@ -1,7 +1,7 @@
 import random
 num = random.randint(1,20)
 # print(num)             # user cannot able to see the number
-print("The number is generated, now its your time to guess it:--")
+print(" one random number is generated from 1 to 20, now its your time to guess it:--")
 
 userguess = None
 guesses = 0
