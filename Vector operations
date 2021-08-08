@@ -1,0 +1,35 @@
+class Vector:
+    def __init__(self,i,j,k):
+        self.i = i
+        self.j = j
+        self.k = k
+    def __str__(self):
+        return f"{self.i}i + {self.j}j + {self.k}k"
+
+    def __add__(self, vec):
+        return f"{self.i + vec.i}i + {self.j + vec.j}j + {self.k + vec.k}k"
+
+    def __sub__(self, vec):
+        return f"{self.i - vec.i}i + {self.j - vec.j}j + {self.k - vec.k}k"
+
+    def __pow__(self, vec):
+        return (self.i * vec.i) + (self.j * vec.j) + (self.k  * vec.k)
+
+    def __mul__(self, vec):
+        a1 = (self.j * vec.k) - (self.k * vec.j)
+        a2 = - ((self.i * vec.k) - (self.k * vec.i))
+        a3 = (self.i * vec.j) - (self.j * vec.i)
+        return f"{a1}i + {a2}j + {a3}k"
+
+v1 = Vector(3,5,-4)
+print("Vector 1 = ", v1)
+v2 = Vector(1,2,2)
+print("Vector 2 = ",v2)
+print("addition of two vectors is:")
+print("v1 + v2 = ",v1 + v2)
+print("subtraction of two vectors is:")
+print("v1 - v2 = ",v1 - v2)
+print("dot product of two vectors is:")
+print("v1.v2 = ",v1 ** v2)
+print("cross product of two vectors is:")
+print("v1 x v2 = ",v1 * v2)
