@@ -7,3 +7,12 @@ User can perform all the vector operations by using this code.
 - Addition, Subtraction, Dot product, and Cross product of two vectors.
 # Palindrome number
 The code is used to check whether the entered number is Palindrome Number or not.
+# Star Patterns
+we can print different star pattern by using loops in python.
+Examples:-
+*                                      *                          * * * * *           
+* *                                   * *                           * * * *
+* * *                                * * *                            * * *
+* * * *                             * * * *                             * *
+* * * * *                          * * * * *                              *
+  
