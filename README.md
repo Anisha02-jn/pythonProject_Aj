@@ -9,9 +9,3 @@ User can perform all the vector operations by using this code.
 The code is used to check whether the entered number is Palindrome Number or not.
 # Star Patterns
 we can print different star pattern by using loops in python.
-*                                      *                          * * * * *           
-* *                                   * *                           * * * *
-* * *                                * * *                            * * *
-* * * *                             * * * *                             * *
-* * * * *                          * * * * *                              *
-  
